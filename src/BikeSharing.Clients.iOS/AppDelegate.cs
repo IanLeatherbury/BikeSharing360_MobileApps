@@ -40,10 +40,10 @@ namespace BikeSharing.Clients.iOS
 
         private static void InitHockeyApp()
         {
-            var manager = BITHockeyManager.SharedHockeyManager;
-            manager.Configure(GlobalSettings.HockeyAppAPIKeyForiOS);
-			manager.CrashManager.CrashManagerStatus = BITCrashManagerStatus.AutoSend;
-            manager.StartManager();
+   //         var manager = BITHockeyManager.SharedHockeyManager;
+   //         manager.Configure(GlobalSettings.HockeyAppAPIKeyForiOS);
+			//manager.CrashManager.CrashManagerStatus = BITCrashManagerStatus.AutoSend;
+            //manager.StartManager();
         }
     }
 }
